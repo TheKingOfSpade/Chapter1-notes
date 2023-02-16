@@ -81,3 +81,6 @@ var old = 123;
 
 // var is the old way to create variables. Don't use it.
 
+//other rounding methods\
+console.log(Math.floor(x3.5)); //floor always rounds down
+console.log(Math.ceil(x3.5)); //ceil always rounds up
