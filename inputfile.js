@@ -71,5 +71,4 @@ else if (answer5 === "No"){
 } else {
     console.log("invalid");
 }
-
 //8
