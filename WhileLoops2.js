@@ -1,5 +1,4 @@
 const readLine = require(`readline-sync`);
-const readline = require("readline-sync");
 //11
 let answer = readLine.question("Do you want to quit? y or n: ");
 while (answer != "y" && answer != "n"){
@@ -51,3 +50,13 @@ if (number1 > 0) {
 }
 console.log("Not a negative number");
 //18
+let number2 = Number(readline.question("Enter a even number: "));
+if (number2 / 2){
+    console.log(`Even number`)}
+else if (number2 % 3 && number2 % 7 ){
+    console.log(`not even number`)}
+//19
+let number3 = Number(readline.question("Enter a odd number: "));
+if(number3 % 3){
+    console.log(`odd number`)}
+//20
